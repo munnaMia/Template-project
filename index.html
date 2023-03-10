@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog website</title>
+
+    <!-- style file connected -->
+    <link rel="stylesheet" href="Style/style.css">
+
+    <!-- google fonts selected -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+
+<body>
+
+    <!----------------- header section start here ----------------->
+    <header id="blog-header">
+
+        <!-- logo section starts here -->
+        <figure class="logo-figure">                    <!-- this is the logo section where i use figure tag  -->
+            <i class="fab fa-autoprefixer logo"></i>    <!-- this is the logo of our page -->
+        </figure>
+
+        <i class="fas fa-bars fa-4x" id="menu-icon"></i>
+        <!-- logo section ends here -->
+
+
+
+        <!-- navigation section starts here -->
+        <nav aria-level="Main Menu" id="menu" class="hidden">                    <!--this is like a section ====> the use case of aria level is to make more readable and accessabel -->
+            <ul role="menubar" aria-label="Main Menu">                         <!--this is like a element of section for an acceable website-->
+                <li role="none">
+                    <a href="#" class="nav-link" role="menuitem">Home</a>
+                </li>
+
+                <li role="none">
+                    <a href="#" class="nav-link" role="menuitem">About</a>
+                </li>
+
+                <li role="none">
+                    <a href="#" class="nav-link" role="menuitem">Archives</a>
+                </li>
+
+                <li role="none">
+                    <a href="#" class="nav-link" role="menuitem">Blog Posts</a>
+                </li>
+
+                <li role="none">
+                    <a href="#" class="nav-link" role="menuitem">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- navigation section ends here -->
+
+    </header>
+    <!------------------- header section ends here ---------------->
+
+
+
+
+
+
+    <!-------------------- main section starts here -------------------->
+    <main>
+        <!-- banner section starts here -->
+        <section id="blog-banner-section">
+
+            <!-- this is artical section start -->
+            <article>
+                <h1 class="banner-heading">WEB DEVELOPMENT</h1>
+                <p class="banner-description text-justify">
+                    Web development is the process of creating websites and web applications. It involves a variety of skills and disciplines, including web design, client-side scripting, server-side scripting, and database management.
+                </p>
+            </article>
+            <!-- this is artical section end -->
+
+
+
+            <!-- aside section start here -->
+            <aside>
+                <img src="images/cover.jpg" alt="This a cover photo" class="banner-img">
+            </aside>
+            <!-- aside section ends here -->
+
+        </section>
+        <!-- banner section ends here -->
+
+
+
+
+
+
+
+        <!-- about me section starts here -->
+        <section id="blog-about" class="section-center">
+            <h2 class="section-heading text-white">About Me</h2>       <!-- title of about me section -->
+
+            <div class="card-container">
+
+                <!-- cardno 1 -->
+                <div class="card">
+                    <h3 class="card-header">Education</h3>  <!-- card title -->
+                    <p class="card-description">            <!-- card details -->
+                        Education is the process of acquiring knowledge, skills, values, and attitudes through various forms of learning. It is a fundamental human right and is essential for personal development, social mobility, and economic prosperity.
+                    </p>
+                    <button type="submit" class="card-btn btn">READ MORE</button>
+                </div>
+
+                <!-- cardno 2 -->
+                <div class="card">
+                    <h3 class="card-header">Education</h3>  <!-- card title -->
+                    <p class="card-description">            <!-- card details -->
+                        Education is the process of acquiring knowledge, skills, values, and attitudes through various forms of learning. It is a fundamental human right and is essential for personal development, social mobility, and economic prosperity.
+                    </p>
+                    <button type="submit" class="card-btn btn">READ MORE</button>
+                </div>
+
+                <!-- cardno 3 -->
+                <div class="card">
+                    <h3 class="card-header">Education</h3>  <!-- card title -->
+                    <p class="card-description">            <!-- card details -->
+                        Education is the process of acquiring knowledge, skills, values, and attitudes through various forms of learning. It is a fundamental human right and is essential for personal development, social mobility, and economic prosperity.
+                    </p>
+                    <button type="submit" class="card-btn btn">READ MORE</button>
+                </div>
+            </div>
+        </section>
+        <!-- about me section ends here -->
+
+
+
+        <!-- archive section starts here -->
+        <section id="archives" class="section-center">
+            <h2 class="section-heading">Archives</h2>
+            <div class="archive-container">
+                <ul class="archives-container-lists">
+                    <li  class="archives-container-list">
+                        <img src="images/laptop (1).jpg" alt="img1" class="archives-img">
+                    </li>
+                    <li  class="archives-container-list">
+                        <img src="images/laptop (2).jpg" alt="img2" class="archives-img">
+                    </li>
+                    <li  class="archives-container-list">
+                        <img src="images/laptop (3).jpg" alt="img3" class="archives-img">
+                    </li>
+                    <li  class="archives-container-list">
+                        <img src="images/laptop (4).jpg" alt="img4" class="archives-img">
+                    </li>
+                    <li  class="archives-container-list">
+                        <img src="images/laptop (5).jpg" alt="img5" class="archives-img">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- archive section ends here -->
+
+
+
+
+
+
+        <!-- blog posts section starts here -->
+        <section id="blog-posts" class="section-center">
+            <h2 class="section-heading blog-post-heading">Blog Posts</h2>
+            <div class="blog-post">
+                <aside class="blog-post-aside">
+                    <img src="images/half laptop.jpg" alt="laptop" class="blog-img">
+                </aside>
+
+                <article class="blog-content">
+                    <h2 class="blog-heading">Blog 1</h2>
+                    <h3 class="blog-subheading">Sub heading</h3>
+                    <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ullam, repellat, tempore rerum ipsa quo ducimus consectetur beatae ea, dolorem unde quas tenetur officia alias saepe quod quae exercitationem quia.</p>
+                    <button type="submit" class="btn blog-btn">Learn More...</button>
+                </article>
+            </div>
+
+            <div class="blog-post">
+                <aside class="blog-post-aside">
+                    <img src="images/half laptop.jpg" alt="laptop" class="blog-img">
+                </aside>
+
+                <article class="blog-content">
+                    <h2 class="blog-heading">Blog 2</h2>
+                    <h3 class="blog-subheading">Sub heading</h3>
+                    <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ullam, repellat, tempore rerum ipsa quo ducimus consectetur beatae ea, dolorem unde quas tenetur officia alias saepe quod quae exercitationem quia.</p>
+                    <button type="submit" class="btn blog-btn">Learn More...</button>
+                </article>
+            </div>
+
+            <div class="blog-post">
+                <aside class="blog-post-aside">
+                    <img src="images/half laptop.jpg" alt="laptop" class="blog-img">
+                </aside>
+
+                <article class="blog-content">
+                    <h2 class="blog-heading">Blog 3</h2>
+                    <h3 class="blog-subheading">Sub heading</h3>
+                    <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ullam, repellat, tempore rerum ipsa quo ducimus consectetur beatae ea, dolorem unde quas tenetur officia alias saepe quod quae exercitationem quia.</p>
+                    <button type="submit" class="btn blog-btn">Learn More...</button>
+                </article>
+            </div>
+        </section>
+        <!-- blog posts section ends here -->
+
+
+
+
+        <!-- contact section start here -->
+        <section id="contact-section" class="section-center">
+            <h2 class="section-heading text-white">Contact Me</h2>
+
+            <form action="mailto: mdmunnamia987@gmail.com" id="contact-form" method="post">
+                <div class="from-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required autocapitalize="name">
+                </div>
+
+                <div class="from-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required autocapitalize="email">
+                </div>
+
+                <div class="from-control">
+                    <label for="massage">Massage</label>
+                    <textarea name="massage" id="massage"></textarea>
+                </div>
+                <div class="from-control from-field-btn">
+                    <button type="submit" class="btn contact-btn">SUBMIT</button>
+                </div>
+            </form>
+        </section>
+        <!-- contact section ends here -->
+
+
+
+    </main>
+    <!-------------------- main section ends here -------------------->
+
+
+
+
+    <!-------------------- footer section start here -------------------->
+
+    <footer>
+        <p class="copyright">
+            Copyright &copy; Md Munna Mia 2023 
+        </p>
+
+        <nav aria-level="Footer Menu">                    <!--this is like a section ====> the use case of aria level is to make more readable and accessabel -->
+            <ul role="menubar2" id="menubar2" aria-label="Footer Menu">                         <!--this is like a element of section for an acceable website-->
+                <li role="none">
+                    <a href="#" target="_blank" class="nav-link" role="menuitem"><i class="fab fa-facebook footer-icon"></i></a>
+                </li>
+
+                <li role="none">
+                    <a href="#" target="_blank" class="nav-link" role="menuitem"><i class="fab fa-youtube footer-icon"></i></a>
+                </li>
+
+                <li role="none">
+                    <a href="#" target="_blank" class="nav-link" role="menuitem"><i class="fab fa-github footer-icon"></i></a>
+                </li>
+
+                <li role="none">
+                    <a href="#" target="_blank" class="nav-link" role="menuitem"><i class="fab fa-linkedin footer-icon"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-------------------- footer section ends here -------------------->
+
+    <script src="scripts/index.js"></script>
+
+
+</body>
+</html>
